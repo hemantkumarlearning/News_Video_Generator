@@ -17,7 +17,7 @@ Automatically generate daily news summary videos from top headlines using web sc
 
 - Python 3.x
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
-- [OpenAI GPT (or any LLM)](https://platform.openai.com/)
+- [Groq Llama LLM](https://console.groq.com/)
 - [gTTS (Google Text-to-Speech)](https://pypi.org/project/gTTS/)
 - [MoviePy](https://zulko.github.io/moviepy/)
 
