@@ -27,6 +27,29 @@ Automatically generate daily news summary videos from top headlines using web sc
 
 1. **Clone the repo:**
 
-```bash
-git clone https://github.com/your-username/autonews-video-generator.git
-cd autonews-video-generator
+```
+git clone https://github.com/hemantkumarlearning/News_Video_Generator.git
+cd News_Video_Generator
+```
+
+2. **Install dependencies:**
+
+```
+pip install -r requirements.txt
+```
+
+## ⚙️ Usage
+
+```
+python main.py
+```
+
+## The script will:
+
+- Scrape top headlines
+
+- Generate a script using the LLM
+
+- Convert it to speech using gTTS
+
+- Create a video with audio and captions
