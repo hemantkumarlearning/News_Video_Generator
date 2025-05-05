@@ -8,5 +8,3 @@ def trending_news():
     articles = soup.select('h2 a')[:5]
     headlines = [a.text.strip() for a in articles if a.text.strip()]
     return headlines
-
-# This method fetching top 5 headlines from indiatoday.in
